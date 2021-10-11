@@ -1,6 +1,5 @@
 <?php
 require_once "dbconnect.php";
-    session_start();
     $query = "SELECT Theme, Text, Photo, Date FROM newss ORDER BY date DESC";
     $result = mysqli_query($link, $query);
 ?>
@@ -10,7 +9,7 @@ require_once "dbconnect.php";
 <title>Новости</title>
 
 <?php
-include "standart.html";
+include "standart.php";
 ?>
 
 <?php

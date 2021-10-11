@@ -7,7 +7,7 @@ require_once "dbconnect.php";
 <title>Главная</title>
 
 <?php
-include "standart.html";
+include "standart.php";
 ?>
 
 </body>
